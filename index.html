@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Test JQuery</title>
+
+</head>
+<body>
+    <p class="maclasse">On va bosser avec jQuery, c'est super !</p>
+
+    <div id="uneDiv"></div>
+
+    <p id="monid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eum, alias, deserunt distinctio excepturi veritatis aut ea ullam eligendi tempora repellendus illo ipsam qui esse id corporis autem pariatur blanditiis?</p>
+
+    <button>Cliquez ici</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- <script src="js/jquery.js"></script> -->
+    <script>
+        $(function(){
+            //$('p').css({color:'red'});
+            $('.maclasse').css({color:'red'});
+            $('#monid').css({color : 'blue'});
+            //$("#uneDiv").click(function(){
+            //    alert("tu as bien cliqué ici");
+            //});
+
+            $('#uneDiv').on('mouseover', function(){
+                alert('Ce code fonctionne !');
+                });
+
+            $('button').on('click', function(){
+                alert('Ce code fonctionne !');
+            });
+
+            $('.maclasse').mouseover(function(){
+                $('.maclasse').css({color:'blue'}); 
+            });
+
+            $('.maclasse').mouseout(function(){
+                $('.maclasse').css({color:'red'}); 
+            });
+
+
+                            
+        //jQuery(function(){
+        //jQuery(document).ready(function(){    
+        // Du code en jQuery va pouvoir être tapé ici !
+        console.log("jQuery est prêt !");
+        });
+    </script>
+</body>
+</html>   
