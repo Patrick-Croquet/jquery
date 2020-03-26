@@ -4,8 +4,6 @@ let toggleFx = function() {
 
 toggleFx();
 
-
-
 // c'est anne, j'ai une question, est-ce qu'on peut faire ça?????!!! :
 
 //$(".button").click(function() {

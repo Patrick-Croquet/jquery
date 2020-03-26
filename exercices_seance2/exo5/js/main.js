@@ -1,5 +1,5 @@
 $('button').click(function() {
     setInterval(function() {
         $('div').toggle(2000);
-    }, 5000);
+    }, 3000);
 });

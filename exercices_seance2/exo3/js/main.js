@@ -3,7 +3,7 @@ $("#btn1").click(function() {
         height: "300px",
         width: "100px",
         backgroundColor: "purple",
-    }, 1000);
+    }, 1500);
 });
 
 $("#btn2").click(function() {
@@ -11,5 +11,5 @@ $("#btn2").click(function() {
         height: "200px",
         width: "200px",
         backgroundColor: "rgb(134, 0, 22)",
-    }, 1000);
+    }, 1500);
 });
